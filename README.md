@@ -1,4 +1,26 @@
 # pizza-app
+### 项目描述 ######
+是vue.js项目，是类似于一个点餐系统
+
+### 功能 ######
+ 用户登陆登出
+ 商品列表
+ 购物车列表
+ 商品管理（增删改）
+ 已购商品增，删
+ 网站信息
+ 
+ ### 技术栈 ######
+ Vue-cli
+ Vue
+ Vuex
+ Vue-Router
+ Axios
+ Node
+ 
+ 
+ 
+
 ![](https://github.com/dhyan123/p-app/blob/master/src/assets/1521797532(1).jpg)
 > A Vue.js project
 
