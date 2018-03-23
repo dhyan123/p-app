@@ -11,14 +11,35 @@
  <p>网站信息<p>
  
  ### 技术栈 ######
- Vue-cli
- Vue
- Vuex
- Vue-Router
- Axios
- Node
+ <p>Vue-cli<p>
+ <p>Vue<p>
+ <p>Vuex<p>
+ <p>Vue-Router<p>
+ <p>Axios<p>
+ <p>Node<p>
  
+  ### 数据 ######
  
+ 通过vuex管理整个应用状态的数据
+ 
+ <p>删除商品</p>
+  methods:{
+      deleteData(item){
+        fetch("https://wd2468178309upkmpi.wilddogio.com/menu/"+item.id+"/.json",{
+          method:"DELETE",
+          headers:{
+            'Content-type':'application/json'
+          }
+        })
+        .then(res => res.json())
+        .then(data => {
+          this.$store.commit('removeMenuItems',item)
+        })
+        .catch(err => console.log(err))
+      }
+    }
+  }
+
  
 
 ![](https://github.com/dhyan123/p-app/blob/master/src/assets/1521797532(1).jpg)
