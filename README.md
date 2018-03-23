@@ -1,5 +1,5 @@
 # pizza-app
-
+![](https://github.com/dhyan123/p-app/blob/master/src/assets/1521797532(1).jpg)
 > A Vue.js project
 
 ## Build Setup
